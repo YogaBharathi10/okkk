@@ -26,7 +26,7 @@ const io = new Server(server, {
 });
 
 // Serve the frontend
-app.use(express.static(path.join(__dirname)));
+
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 
 // Rooms map: roomCode → { hostId, users: Map<socketId, {name, id}>, state }
