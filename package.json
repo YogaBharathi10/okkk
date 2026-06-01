@@ -1,0 +1,13 @@
+{
+  "name": "raathiri-padam",
+  "version": "2.1.0",
+  "description": "Real-time watch party app with Socket.IO + WebRTC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
